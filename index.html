@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>idleTimeout - jQuery UI Example Page</title>
+		<link type="text/css" href="development-bundle/jquery-ui-1.7.2.custom.css" rel="stylesheet" />	
+		<script type="text/javascript" src="development-bundle/jquery-1.4.3.min.js"></script>
+		<script type="text/javascript" src="development-bundle/jquery-ui-1.7.2.custom.min.js"></script>
+	</head>
+	<body>
+		<script src="jquery-idleTimeout.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+		  $(document).ready(function(){
+		   $(document).idleTimeout({
+		     inactivity: 5000, 
+     		 noconfirm: 10000, 
+     		 sessionAlive: 10000
+		   });
+		  });
+		</script>
+		
+	<h1>idleTimeout - timeout test</h1>
+	  
+	  Timeout Clock
+
+	</body>
+</html>
+
+
